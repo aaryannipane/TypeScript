@@ -1,0 +1,7 @@
+look data types in typesScript
+https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
+all types in typesScript are in lowercase
+
+syntax:
+    let variableName: type = value`

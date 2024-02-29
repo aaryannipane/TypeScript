@@ -1,0 +1,3 @@
+typescript for functions
+
+specify the type for arguments and the return type of function

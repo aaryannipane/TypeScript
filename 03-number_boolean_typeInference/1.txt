@@ -1,0 +1,8 @@
+we can't define int or float in typescript separately it's cover in number
+
+type inference means typescript will sense the type of variable while assigning value to it and we don't have to tell typescript for the type but we can tell it ofcourse
+
+let mynum = 23
+mynum.toFixed()
+
+above code is fine and typescripted

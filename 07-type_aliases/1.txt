@@ -1,0 +1,1 @@
+creating user define types in TS using type keyword

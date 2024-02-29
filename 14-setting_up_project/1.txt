@@ -1,0 +1,30 @@
+# first initialize the TS in the folder using cmd
+$tsc --init 
+# create JSON file for typescript configuration 
+
+# set up npm using cmd
+$npm init -y
+
+# create two folders name ["src", "dist"]
+# in src we will create "index.ts" file
+# in dist (distribution) folder TS will auto create JS file when compiled
+# creat index.html in root folder
+# link js file in html file
+
+# to tell TS to compile TS file to JS in folder "dist"
+# go to TS config file and unComment "outDir" and give path to "dist" folder
+
+# when often chanfes made in TS file we don't want to run tsc again and again 
+# we can use watch mode of typescript that will detect changes and auto compile TS file
+$tsc -W 
+
+# install lite-server npm package
+$npm i lite-server
+
+# run lite-server
+$lite-server
+
+# then also TS watch 
+$tsc -W 
+
+# now we can compile TS file to JS and this changes is captured by server and reloads the page on browser

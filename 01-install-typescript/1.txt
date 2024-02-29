@@ -1,0 +1,17 @@
+there are two ways to install typescript 
+globaly (for learning)
+inside project (in react projects or any)
+
+for globaly installation
+$npm install -g typescript
+
+check version of typescript by cmd
+$tsc -v
+
+To write typescript create file with extension .ts 
+then write some code 
+
+then convert or transpiled it to javascript code by using cmd 
+$tsc filename.ts 
+
+above cmd will create .js file containg js code
